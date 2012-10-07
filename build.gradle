@@ -1,4 +1,14 @@
+//
+//to specify u need to create a war
+//no need to add this plugin here as jetty plugin has a task to create a war and then deploy
+//if running exploded war mode, then only need to have this plugin
+//
 apply plugin: 'war'
+
+//
+//to specify u need to deploy this project in jetty
+//no need to add any kind of jetty jars for this project
+//
 apply plugin: 'jetty'
 
 //
