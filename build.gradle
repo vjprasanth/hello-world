@@ -1,10 +1,17 @@
-def springVersion = "3.1.2.RELEASE"
-
 apply plugin: 'war'
 apply plugin: 'jetty'
+
+//
+//no need for any kind of repositories to run this hello world program
+//added just for reference
+//
 repositories {
     mavenCentral()
 }
+//
+//no need for any kind of dependencies to run this hello world program
+//added just for reference
+//
 dependencies {
     compile 'org.springframework.security:spring-security-web:3.1.2.RELEASE'
     compile 'org.springframework.security:spring-security-config:3.1.2.RELEASE'
